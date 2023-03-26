@@ -5,7 +5,6 @@
 <br />
 <div align="center">
 
-[![Netlify Status][netlify-shield]][netlify-url]<br />
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -432,8 +431,6 @@ Project Link: [https://github.com/jackharbon/walkerrr-backend](https://github.co
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[netlify-shield]: https://api.netlify.com/api/v1/badges/fe068f24-f34c-4099-810e-9cb07a1f453e/deploy-status?branch=main
-[netlify-url]: https://app.netlify.com/sites/walkerrr/deploys
 [contributors-shield]: https://img.shields.io/github/contributors/jackharbon/walkerrr-backend.svg?style=for-the-badge
 [contributors-url]: https://github.com/jackharbon/walkerrr-backend/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/jackharbon/walkerrr-backend.svg?style=for-the-badge
