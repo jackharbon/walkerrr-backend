@@ -272,10 +272,7 @@ Install useful software:
 
 -   Go to the [Cyclic](https://www.cyclic.sh/) website and sign up with your GitHub account.
 -   Add your GitHub repo `walkerrr-backend` (watch [example on YouTube](https://www.youtube.com/watch?v=UnhTGEtOD6M) if you need help).
--   If necessary, edit "Environment" -> "Build Options": add "Root Path" and "Output Path"
-    ```sh
-    /walkerrr-backend
-    ```
+-   choose "Link Your Own" tab and connect your GitHub repo `walkerrr-backend`
 -   Create new variable named `MONGO_URI` and paste the value (replace `password` with your password), you can watch [example on YouTube](https://www.youtube.com/watch?v=qGtEPIbB-7k) or [YouTube video](https://youtu.be/W5ybio3wVJQ) presenting whole process.
     ```sh
     "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
@@ -287,10 +284,6 @@ Install useful software:
 -   Connect to your GitHub repo `walkerrr-backend`.
 -   In dashboard fulfill form fields:<br />
     Name: `walkerrr-backend`<br  />
--   Root Directory:
-    ```sh
-    walkerrr-backend
-    ```
 -   Build Command:
     ```sh
     npm install
