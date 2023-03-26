@@ -272,7 +272,7 @@ Install useful software:
 
 -   Go to the [Cyclic](https://www.cyclic.sh/) website and sign up with your GitHub account.
 -   Add your GitHub repo `walkerrr-backend` (watch [example on YouTube](https://www.youtube.com/watch?v=UnhTGEtOD6M) if you need help).
--   choose "Link Your Own" tab and connect your GitHub repo `walkerrr-backend`
+-   Choose "Link Your Own" tab and connect your GitHub repo `walkerrr-backend`
 -   Create new variable named `MONGO_URI` and paste the value (replace `password` with your password), you can watch [example on YouTube](https://www.youtube.com/watch?v=qGtEPIbB-7k) or [YouTube video](https://youtu.be/W5ybio3wVJQ) presenting whole process.
     ```sh
     "mongodb+srv://walkerrr:<password>@walkerrr.vvwslic.mongodb.net/?retryWrites=true&w=majority"
@@ -316,6 +316,10 @@ Install useful software:
     ```sh
     code .
     ```
+    -   Navigate to app folder
+    ```sh
+    cd walkerrr
+    ```
 
 2. Preparations
 
@@ -328,6 +332,10 @@ Install useful software:
 -   Navigate to front-end directory
     ```sh
     cd walkerrr-frontend
+    ```
+    -   Navigate to app directory
+    ```sh
+    cd walkerrr
     ```
 -   Edit a file [api_connection.dart](walkerrr-frontend\lib\services\api_connection.dart) and replace URL endpoint with your link in the line 5<br />
     `const baseAPI =`
